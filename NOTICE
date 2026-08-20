@@ -1,0 +1,11 @@
+higress-akka
+Copyright 2026 Tyler Jewell
+
+This product is a port of Higress (https://github.com/higress-group/higress),
+Copyright (c) Alibaba Group Holding Ltd., licensed under the Apache License,
+Version 2.0.
+
+The behaviour this project reproduces was derived from Higress's
+model-router, ai-token-ratelimit and ai-proxy plugins. The layout of the
+budget key names is taken from ai-token-ratelimit. No other text was copied;
+see ACKNOWLEDGEMENTS.md.
