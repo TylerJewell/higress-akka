@@ -1,11 +1,14 @@
 higress-akka
 Copyright 2026 Tyler Jewell
 
-This product is a port of Higress (https://github.com/higress-group/higress),
-Copyright (c) Alibaba Group Holding Ltd., licensed under the Apache License,
-Version 2.0.
+This software was written for the Akka Specify port experiment and is licensed
+under the Apache License, Version 2.0. See LICENSE.
 
-The behaviour this project reproduces was derived from Higress's
-model-router, ai-token-ratelimit and ai-proxy plugins. The layout of the
-budget key names is taken from ai-token-ratelimit. No other text was copied;
-see ACKNOWLEDGEMENTS.md.
+It is a clean-room implementation: written against a specification derived by
+running higress-group/higress (https://github.com/higress-group/higress) and recording what it does, not by
+translating its source.
+
+No source from higress-group/higress is shipped here. That project, Copyright the higress-group/higress authors
+and licensed under Apache-2.0, was the subject of the specification this software was
+written against -- not a source of its code. See ACKNOWLEDGEMENTS.md for any text
+carried across and why.
